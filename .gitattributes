@@ -1,0 +1,6 @@
+# Encrypt all .env files
+*.env filter=git-crypt diff=git-crypt
+
+# Encrypt all config YAML files
+config/*.yml filter=git-crypt diff=git-crypt
+
